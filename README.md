@@ -1,38 +1,16 @@
-# create-svelte
+[alphabet-nc.vercel.app](https://alphabet-nc.vercel.app/)
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+![demo](https://user-images.githubusercontent.com/20292939/193881417-8954b742-6e12-42a5-8b18-17a6c864f059.gif)
 
-## Creating a project
+Sometimes in recent years, I feel some problems with concentration: I can’t not think about anything for 2 minutes or focus on one thought or activity for a long time. In fixing concentration among different methods and exercises, the “Alphabet” game from the New Code NLP helps me, which allows, in addition to concentration, to enter an HPS-state similar to the "flow"-state.
 
-If you're seeing this, you've probably already done this step. Congrats!
+The essence of the game is that you need to say the letter and raise those hands that are shown on the card.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+I made a small prototype of this game, which, in addition to the basic functionality, can add simple gamification, counting the correct answers using hand tracking and perceiving voice.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+The work on prototyping the idea itself took about one working day thanks to the wonderful SvelteKit and handtrack.js.
 
-## Developing
+The speech recognizer often does not quite correctly recognize the desired letter: not quite correct pronunciation may affect, in the console you can see what exactly the speech recognizer hears.
+The hand detection model also does not always work perfectly: you need good lighting.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Good game and concentration! :)
